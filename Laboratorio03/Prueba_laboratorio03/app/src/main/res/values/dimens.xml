@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_gap">8dp</dimen>
+    <dimen name="big_gap">16dp</dimen>
+    <dimen name="padding_gap">76dp</dimen>
+    <dimen name="size_count">64dp</dimen>
+    <dimen name="size_title">32dp</dimen>
+    <dimen name="size_image">91dp</dimen>
+    <dimen name="padding_a">48dp</dimen>
+    <dimen name="padding_b">56dp</dimen>
+    <dimen name="margin_a">116dp</dimen>
+</resources>
