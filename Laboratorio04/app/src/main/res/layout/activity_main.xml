@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/medium_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_one_activity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_title"
+        android:text="@string/title_one_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundMode="outline"
+        android:backgroundTint="@color/white"
+        app:hintTextColor="@color/main_color"
+        android:layout_marginTop="@dimen/space_text"
+        android:hint="@string/hint_name_one"
+        app:boxStrokeColor="@color/main_color"
+        app:layout_constraintTop_toBottomOf="@+id/title_one_activity_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_one_activity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_text"
+        android:backgroundTint="@color/white"
+        android:hint="@string/hint_correo_one"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/main_color"
+        app:hintTextColor="@color/main_color"
+        app:layout_constraintTop_toBottomOf="@+id/textField_1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/correo_one_activity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_text"
+        android:backgroundTint="@color/white"
+        android:hint="@string/hint_telefono_one"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/main_color"
+        app:hintTextColor="@color/main_color"
+        app:layout_constraintTop_toBottomOf="@+id/textField_2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/telefono_one_activity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_gap"
+        android:text="@string/button_save_text"
+        app:layout_constraintEnd_toEndOf="@+id/textField_3"
+        app:layout_constraintStart_toStartOf="@+id/textField_3"
+        app:layout_constraintTop_toBottomOf="@+id/textField_3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

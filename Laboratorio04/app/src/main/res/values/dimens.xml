@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_gap">8dp</dimen>
+    <dimen name="medium_margin">12dp</dimen>
+    <dimen name="margin_top_title">75dp</dimen>
+    <dimen name="margin_top_title_2">250dp</dimen>
+
+    <dimen name="space_text">16dp</dimen>
+
+    <dimen name="size_title">32dp</dimen>
+</resources>
