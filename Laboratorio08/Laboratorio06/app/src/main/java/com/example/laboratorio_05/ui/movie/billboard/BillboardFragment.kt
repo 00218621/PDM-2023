@@ -73,11 +73,6 @@ class BillboardFragment : Fragment() {
 
         findNavController().navigate(R.id.action_firstFragment_to_threeFragment)
 
-        /*      val bundle = Bundle()
-        bundle.putString("name_movie",movie.name)
-        val fragment = MovieFragment()
-        fragment.arguments = bundle
-        */
     }
 
 }

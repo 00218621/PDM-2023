@@ -15,9 +15,11 @@ class MovieViewModel(private val repository: MovieRepository): ViewModel() {
     var description = MutableLiveData("")
     var qualification = MutableLiveData("")
     var status = MutableLiveData("")
+
     fun getMovies()= repository.getMovies()
 
     fun addMovies(movie: MovieModel)= repository.addMovies(movie)
+
     fun createMovie(){
         if(!validateData()){
             status.value = WRONG_INFORMATION

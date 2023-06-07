@@ -11,11 +11,7 @@ import com.example.laboratorio_05.databinding.FragmentMovieBinding
 import com.example.laboratorio_05.ui.movie.billboard.recyclerview.MovieRecyclerViewAdapter
 import com.example.laboratorio_05.ui.movie.viewmodel.MovieViewModel
 
-/**
- * A simple [Fragment] subclass.
- * Use the [MovieFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
+
 class MovieFragment : Fragment() {
 
     private val movieViewModel: MovieViewModel by activityViewModels{
